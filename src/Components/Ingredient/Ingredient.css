@@ -1,0 +1,9 @@
+.recipe-ingredient {
+    display: flex;
+    column-gap: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.recipe-ingredient-icon {
+    color: rgb(0, 191, 255);
+}

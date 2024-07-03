@@ -1,0 +1,7 @@
+.recipe-list {
+    width: 100%;
+    padding-right: 10px;
+    list-style-type: none;
+    border-right: 1px solid lightgray;
+    padding-left: 0px;
+}

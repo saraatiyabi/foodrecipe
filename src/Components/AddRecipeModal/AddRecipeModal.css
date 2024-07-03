@@ -1,0 +1,25 @@
+.recipe-modal-title{
+    transition: all 0.5s ease;
+    margin: 1.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+.input-group{
+    width: 100%;
+    margin: 1rem;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group input{
+    border: 1px solid lightgray;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+
+.input-group label{
+    color: rgb(90, 90, 90);
+    font-weight: 400;
+}

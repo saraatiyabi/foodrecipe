@@ -1,0 +1,147 @@
+.main-recipe {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.no-main-recipe-message {
+    margin: 25px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #656565;
+}
+
+.main-recipe-header {
+    height: 20rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.main-recipe-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.main-recipe-title {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    background-color: rgb(0, 191, 255);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 700;
+    transform: translate(-50%, 20%)skewY(-6deg);
+}
+
+.main-recipe-details {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+
+.main-recipe-details-left {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-recipe-info {
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.main-recipe-icon {
+    color: rgb(0, 191, 255);
+}
+
+.plus,
+.minus {
+    cursor: pointer;
+}
+
+.main-recipe-ingredients {
+    background-color: #f5f9f9;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-recipe-ingredients h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: rgb(0, 191, 255);
+    text-transform: uppercase;
+}
+
+.main-recipe-ingredients-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 3rem;
+    list-style: none;
+    display: grid;
+}
+
+
+
+.recipe-how-to {
+    background-color: #f7fafb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.recipe-how-to-title {
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: rgb(0, 191, 255);
+    text-transform: uppercase;
+}
+
+.recipe-how-to p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #656565;
+}
+
+.recipe-how-to-btn {
+    display: flex;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 191, 255);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    column-gap: 0.5rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.recipe-how-to-btn:hover {
+    transform: scale(1.05);
+}
+
+.recipe-creator {
+    color: rgb(0, 191, 255);
+}
+
+.main-recipe-loader-wrapper{
+    display: flex;
+    justify-content: center;
+}
