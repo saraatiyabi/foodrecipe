@@ -47,7 +47,6 @@ export default function Index() {
   }, []);
 
   useEffect(() => {
-    findRecipes();
     if (allBookmarks) {
       localStorage.setItem("bookmarks", JSON.stringify(allBookmarks));
     }
@@ -59,6 +58,10 @@ export default function Index() {
       console.warn("REACT_APP_FORKIFY_API_KEY is missing! Check .env file.");
     }
   }, [key]);
+
+  useEffect(async () => {
+    await findRecipes();
+  }, []);
 
   const getBookmarks = () => {
     const bookmarks = JSON.parse(localStorage.getItem("bookmarks"));
